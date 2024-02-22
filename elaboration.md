@@ -1,0 +1,5 @@
+# ELABORATION
+
+For this quiz, we first had to make a function that wrote a new text file. I did this by first creating a new file and opening the old file. I then got each line of the old file and separated the data into the Name structure data type. With this, I then copied each field of the struct to the new file, making sure they were separated by spaces. With each line, I incremented the counter so I could return it by the end of the program.
+
+For the second function, I had to find the name with the most uses based on state and year. I did this by creating two Name structs. One struct would hold every new line of data while the other would hold the data of the name with the most uses. I compared the state name and year to the arguments given to make sure I was looking at the right data. After, I then compared the use count to see if it was greater or less than the one stored by the "most" Name struct. If it was, I would put all the new information into the "most" name struct, continuing until I looked through all the data. I then returned the name of the "most" Name struct.
